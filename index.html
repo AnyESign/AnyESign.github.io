@@ -138,13 +138,13 @@
         <div class="content has-text-justified">
           <p>
             The traditional practice of wet signatures, involving physical ink and paper, has long been an integral part of legal, business, and administrative workflows. 
-            Its validity and attribution are established by comparing copies of signatures and presenting testimony from handwriting experts (Graphical representation) and witnesses present at the signing (Real-time witness)​. 
+            Its validity and attribution are established by comparing copies of signatures and presenting testimony from handwriting experts <span style="color: green;">(Graphical representation)</span> and witnesses present at the signing <span style="color: blue;">(Real-time witness)</span>​. 
             However, in today's digital era, the need for more efficient, secure, and environmentally friendly alternatives has become increasingly apparent. 
             Typed Signature, Scanned Signature, and Drawn Signature are three of the most common e-signature options in today's market. 
             Each of these options, though, lacks one or both of the mentioned criteria necessary for broad acceptance in legal documents such as Wills, Trusts, and court orders.
           </p>
           <p>
-            We present AnyEsign, a novel form of electronic signature that provides 1) an accurate digital signature representation and 2) real-time signing evidence, with only the need of a i) pen, ii) paper and iii) webcam. 
+            We present AnyEsign, a novel form of electronic signature that provides 1) <span style="color: green;">an accurate digital signature representation</span> and 2) <span style="color: blue;">real-time signing evidence</span>, with only the need of a <span style="color: red;">i) pen, ii) paper and iii) webcam</span>. 
             AnyEsign serves as a more secure and legally compliant e-signature alternative that aims to promote the wider use of electronic signatures across various industries and use cases.
           </p>
         </div>
@@ -162,7 +162,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Step 1: Camera calibration</h2>
-        <p style="margin: -2%;"> The four corners of the customized paper template are automatically detected, and these coordinates are essential for the Homography transform in the subsequent stage.</p>
+        <p style="margin: -2%;"> The four corners of the customized paper template are automatically detected</p>
         <br>
         <div class="publication-video">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
@@ -176,7 +176,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Step 2: Sign</h2>
-        <p style="margin: -2%;">The user signs in the same way they would with a traditional wet signature, and the entire signing process is recorded by the webcam.</p>
+        <p style="margin: -2%;">The user signs in the same way as they would with a traditional wet signature <br> The entire signing process is recorded by the webcam</p>
         <br>
         <div class="publication-video">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
@@ -206,7 +206,7 @@
     <div class="columns is-centered has-text-centered" style="margin-top: -18%;">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Step 4: Homography transform</h2>
-        <p style="margin: -2%;"> The tracked results will be translated with Homography transform to obtain the final digital signature.</p>
+        <p style="margin: -2%;"> The trackeing results will be translated with Homography transform to obtain the final e-signature.</p>
         <br>
           <div style="text-align: center;">
             <img src="./static/images/result.png"
@@ -226,7 +226,7 @@
     <div class="columns is-centered" style="margin-top: -3%; margin-bottom: 10%;">
 
       <!-- Visual Effects. -->
-      <div class="column" style="width: 50%;">
+      <div class="column">
         <div class="content has-text-centered">
           <h2 class="title is-4">Pen-lifting detection</h2>
           <p>
@@ -266,28 +266,39 @@
 </div>
 </section>
 
-<h2 class="title is-3" style="text-align: center;">Additional Samples</h2> 
+<h2 class="title is-3" style="text-align: center; margin-top: -4%;">Visualization Results</h2> 
+<p  style="text-align: center; margin-top: -0.5%; margin-bottom: 3%;">We provide additional results on different forms of signatures, including cursive and double-stroked.</p>
 <section class="hero is-light is-small">
   <div class="hero-body"> 
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-blueshirt">
-          <img src="./static/images/signature.png"
+          <img src="./static/images/lebron.png"
           class="interpolation-image"
           alt="Interpolate start reference image." style=""/>
         </div>
         <div class="item item-mask">
-          <img src="./static/images/signature.png"
+          <img src="./static/images/python.png"
           class="interpolation-image"
           alt="Interpolate start reference image." style=""/>
         </div>
         <div class="item item-coffee">
-          <img src="./static/images/signature.png"
+          <img src="./static/images/JC.png"
           class="interpolation-image"
           alt="Interpolate start reference image." style=""/>
         </div>
         <div class="item item-toby">
-          <img src="./static/images/signature.png"
+          <img src="./static/images/bigC.png"
+          class="interpolation-image"
+          alt="Interpolate start reference image." style=""/>
+        </div>
+        <div class="item item-toby">
+          <img src="./static/images/Juice_W.png"
+          class="interpolation-image"
+          alt="Interpolate start reference image." style=""/>
+        </div>
+        <div class="item item-toby">
+          <img src="./static/images/jonathan.png"
           class="interpolation-image"
           alt="Interpolate start reference image." style=""/>
         </div>
@@ -321,7 +332,7 @@
 
 
 <footer class="footer">
-  <div class="container">
+  <div class="container" style="height: 1px;">
     <div class="content has-text-centered">
     </div>
     <div class="columns is-centered">
